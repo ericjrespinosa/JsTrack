@@ -77,6 +77,13 @@ function thisIsAJavascriptBlock(param1, param2){
 
 |      Name       |           Email        |      Role    |
 |-----------------|------------------------|--------------|
-|Carlo Santos     | carlo@snapit.solutions |    Mentor    |   
+|Carlo Santos     | snapitcarlo@gmail.com  |    Mentor    |   
 |Sidhartha Guatama|    sg@gmail.com        |    Mentor    |
-|John Smith       | js@gmail.com           |    Student   |
+|John Smith       |    js@gmail.com        |    Student   |
+
+---
+
+[x] Task 1
+[x] Task 2
+[] Task 3
+
