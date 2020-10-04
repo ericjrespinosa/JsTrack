@@ -85,5 +85,8 @@ function thisIsAJavascriptBlock(param1, param2){
 
 * [x] Create a guide for creating a markdown
 * [ ] Create a ReadMe For this Current Project
-* [ ] Task 3
 * [ ] Add Contribution Guidelines
+* [ ] Add First Examples
+  * [ ] Printing to the console
+  * [ ] Writing in HTML (.innerHTML)
+  * [ ] Functions
