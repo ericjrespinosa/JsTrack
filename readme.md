@@ -2,6 +2,9 @@
 
 ## Content
 You May Need Node to Run These Examples
+
+This Repo is a beginner freindly. Learn how to clone and contribute to a project. 
+
 - Basic JS
   - What is a variable
   - What is a data type
