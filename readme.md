@@ -1,10 +1,11 @@
 # Let's Learn JS
 
 ## Content
-You May Need Node to Run These Examples
+You May Need Node to Run Some of These Examples
 
 This Repo is a beginner freindly. Learn how to clone and contribute to a project. 
 
+```
 - Basic JS
   - What is a variable
   - What is a data type
@@ -46,3 +47,9 @@ This Repo is a beginner freindly. Learn how to clone and contribute to a project
     - React
     - Angular
     - Vue
+```
+## Getting started
+
+The order of the files is numbered by experience level. We try and follow a chronological order to what we think the best order to learn syntax so that one builds on top of another.
+
+Each section will have a readme describing the concepts within.
