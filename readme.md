@@ -58,4 +58,4 @@ Each section will have a readme describing the concepts within.
 // TO DO
 
 ## License & Copyright
-Licensed under the [MIT License]_(LICENSE)_
+Licensed under the [MIT]_(LICENSE)_
