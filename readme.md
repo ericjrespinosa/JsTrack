@@ -1,9 +1,9 @@
 # Let's Learn JS
+Version 1.0.0
 
-## Content
-You May Need Node to Run Some of These Examples
-
+You Will Need Node to Run Some of These Examples
 This Repo is a beginner freindly. Learn how to clone and contribute to a project. 
+## Table of Contents
 
 ```
 - Basic JS
@@ -53,3 +53,9 @@ This Repo is a beginner freindly. Learn how to clone and contribute to a project
 The order of the files is numbered by experience level. We try and follow a chronological order to what we think the best order to learn syntax so that one builds on top of another.
 
 Each section will have a readme describing the concepts within.
+
+## Contributing 
+// TO DO
+
+## License & Copyright
+Licensed under the [MIT License](LICENSE)
