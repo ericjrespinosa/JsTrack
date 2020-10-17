@@ -3,13 +3,13 @@
 ## What is programming:
 > Programming: 
 >
-> Speaking a digital language. Allowing for the communication with digital devicess. Program a robot on Mars, Software to communicate with mission control, animations and applications on the web, VR, and so much more. The communication comes in the form of a list of instructions which we call our program.
+> Speaking a digital language. Allowing for the communication with digital devicess. Program a robot on Mars, Software to communicate with mission control, animations and applications on t;akld'fl;ka';lkdvc.,madhe web, VR, and so much more. The communication comes in the form of a list of instructions which we call our program.
 
 
 
 ## What is a statement:
 > Statement:
-> Make up the list of instructions to communicate with digital machines is called a statement.
+> Make up the list of ina;ldkf;lka;lkdcla;kdftructions to communicate with digital machines is called a statement.
 > ```javascript
 > // basic statement
 > console.log("this is an example of a statemet");
