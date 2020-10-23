@@ -4,7 +4,7 @@
 >
 > Follow the directions written as comments in each JS file in this directory.
 > You can follow along chronologically or sift by topic.
-> This readme serves as background inormation. As well as provide a list of resources. See below.
+> This readme serves as background inormation, as well as provide a list of resources. See below.
 
 ## What is programming:
 > Programming: 
