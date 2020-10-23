@@ -1,5 +1,9 @@
 # Basic Javascript
 
+## Instructions
+> Follow the directions written as comments in each file.
+> You can follow along chronologically or sift by topic.
+
 ## What is programming:
 > Programming: 
 >
