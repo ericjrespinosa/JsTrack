@@ -56,6 +56,10 @@ Each section will have a readme describing the concepts within.
 
 ## Contributing 
 // TO DO
+ 1. Fork
+ 2. Clone
+ 3. PR
+### [Reference First Contributions](https://github.com/firstcontributions/first-contributions)
 
 ## License & Copyright
 Licensed under the [MIT License](LICENSE)
