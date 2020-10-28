@@ -25,12 +25,16 @@ If the variable was not created in a function then this variable is */
 // function no matter how deeply nested they are inside that 
 // function.
 
+// ------------------------------------------------------------
+
 let aBetterWayToCreateAVariable = 2;
 /* let is block scoped {} */
 // let is the preferred way to declare a variable
 
 // TODO: Create an example to demonstrate 
 // the difference between let and var
+
+// ------------------------------------------------------------
 
 const aVarThatWillNotChange = 3.14;
 /* const will not be able to change */
