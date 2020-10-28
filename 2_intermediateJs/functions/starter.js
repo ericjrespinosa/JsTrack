@@ -10,11 +10,11 @@
 // **************************************************** //
 // #1 Write a function that adds two numbers together. 
 // **************************************************** //
-function aFunctionToAddTwoNumbers(num1, num2) {
-  console.log(num1 + num2);
-}
+// function aFunctionToAddTwoNumbers(num1, num2) {
+//   console.log(num1 + num2);
+// }
 
-aFunctionToAddTwoNumbers(1,2);
+// aFunctionToAddTwoNumbers(1,2);
 // **************************************************** //
 // #2 Write a function that squares a number
 // **************************************************** //
@@ -112,7 +112,7 @@ aFunctionToAddTwoNumbers(1,2);
 //       console.log("try again");
 //     }
 //   }
- 
+
 // }
 
 // secretPassword();
@@ -144,3 +144,123 @@ aFunctionToAddTwoNumbers(1,2);
 //   document.getElementById("box").style.color = "white"
 //   document.getElementById("box").style.fontSize = "300px"
 // }
+
+// **************************************************** //
+// # 11
+// Create a function that takes an array as a parameter 
+// the function will return a new array with every other 
+// element removed from the original
+// /* [1,2,3,4,5,6,7,8,9,10] => [1,3,5,7,9] */
+
+// function everyOther([somearray]) {
+//   //your logic;
+// }
+// **************************************************** //
+// let newArray = [1,2,3,4,5,6,7,8,9,10];
+
+// function everyOther(array) {
+//   let newArray = [];
+//   array.forEach(function(item, index){
+//     if (index % 2 == 0) {
+//       newArray.push(item);
+//     }
+//   });
+//   return newArray;
+// }
+
+// let myNewArray = everyOther(newArray);
+
+// console.log(myNewArray);
+
+// console.log(everyOther([1,2,3,4,5,6,7]));
+// console.log(everyOther(["Hanan","Presley","Eric","Charlie","Carlo"]));
+// **************************************************** //
+// # 12
+// Create a function that takes an array as a parameter 
+// the function will return a new array with each  
+// element being incremented by two from the original
+// /* [1,2,3,4,5,6,7,8,9,10] => [1,3,5,7,9] */
+
+// function incrementTwo(somearray) {
+//   //your logic;
+//   return somearray.map(x => x + 2);
+// }
+
+
+// let upByTwo = incrementTwo([1,2,3,4,5,6,7,8,9,10]);
+// console.log(upByTwo);
+// **************************************************** //
+// #13
+// given a string of space separated numbers, and have to return the highest and lowest number.
+
+// Example:
+
+// highAndLow("1 2 3 4 5");  // return "5 1"
+// highAndLow("1 2 -3 4 5"); // return "5 -3"
+// highAndLow("1 9 3 4 -5"); // return "9 -5"
+// Notes:
+
+// All numbers are valid Int32, no need to validate them.
+// There will always be at least one number in the input string.
+// Output string must be two numbers separated by a single space, and highest number is first.
+
+// function highAndLow(stringParam) {
+//   let array_arg =  stringParam.split(' ');
+//   let max = Math.max(...array_arg);
+//   let min = Math.min(...array_arg);
+//   return max + " " + min;
+// }
+
+// // highAndLow("1 2 3 4 5");
+
+// console.log(highAndLow("1 2 3 4 5 61 88 -2 55"));
+// **************************************************** //
+// #13
+// Persistence
+// Write a function, persistence, that takes in a positive parameter num and returns 
+// its multiplicative persistence, which is the number of times you must multiply the 
+// digits in num until you reach a single digit.
+
+// For example:
+
+//  persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4
+//                        // and 4 has only one digit
+
+//  persistence(999) === 4 // because 9*9*9 = 729, 7*2*9 = 126,
+//                         // 1*2*6 = 12, and finally 1*2 = 2
+
+//  persistence(4) === 0 // because 4 is already a one-digit number
+// **************************************************** //
+// #14
+// An isogram is a word that has no repeating letters, 
+// consecutive or non-consecutive. Implement a function 
+// that determines whether a string that contains only letters 
+// is an isogram. Assume the empty string is an isogram. Ignore 
+// letter case.
+
+// isIsogram("Dermatoglyphics") == true
+// isIsogram("aba") == false
+// isIsogram("moOse") == false // -- ignore letter case
+
+function isIsogram(str){
+  let splitString = str.toLowerCase().split('');
+  let isIso = true;
+  let count = 0;
+
+  splitString.forEach(element => {
+    splitString.forEach(letter => {
+      if(element === letter) {
+        count++;
+      }
+      if(count > 1){
+        isIso = false
+      }
+    });
+    count = 0;
+  });
+  return isIso;
+}
+
+console.log(isIsogram("Dermatoglyphics")); 
+console.log(isIsogram("aba")); 
+console.log(isIsogram("moOse")); 

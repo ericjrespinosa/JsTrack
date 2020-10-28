@@ -26,6 +26,7 @@ __This text is strong__
 ---
 <!-- Strikethrough -->
 ~~This text~~ is strikethrough
+~~ is a strikethrough ~~
 
 ---
 <!-- Blockquote -->
