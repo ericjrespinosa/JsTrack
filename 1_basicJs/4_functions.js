@@ -5,6 +5,8 @@
 
 
 // IMPLEMENT YOUR CHANGES IN THIS FILE
-function nameOfFunction(){
-
-}
+function nameOfFunction (a, b) { // here we created two parameters 'a' and 'b'
+  return(a * b); // this line we used a return statement to return back to us 'a' times 'b'
+} // don't forget to close your function with curly brackets
+  //  lastly we need to console log the function and pass through the arguments 
+  //  which are 3 and 6
