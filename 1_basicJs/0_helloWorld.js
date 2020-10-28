@@ -5,4 +5,5 @@
 // this is a comment
 // to comment code, highlight and press `ctrl` or `cmd` + `/`
 
+// this outputs to the terminal
 console.log("Hello World")
